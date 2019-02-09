@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="@android:style/Theme.Holo.Light">
+	</style>
+	
+	<style name="MyTheme" parent="Theme.AppCompat.Light.NoActionBar">
+		<item name="colorPrimary">#3C3C3C</item>
+		<item name="colorPrimaryDark">#353535</item>
+		<item name="colorAccent">#2087DF</item>
+		<item name="android:actionMenuTextColor">@color/primaryTextColor</item>
+		<item name="colorButtonNormal">@color/buttonColor</item>
+	</style>
+	
+	<style name="AppTheme.RoundedCornerMaterialButton" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:background">@drawable/rounded_shape</item>
+	</style>
+		
+</resources>
